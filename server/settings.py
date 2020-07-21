@@ -25,7 +25,7 @@ SECRET_KEY = 'n+rze36mv6e6pvdn%+mc34c6_jp)goy50737%1&hl*xqris39h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['py.saveyourfood.fr']
 
 
 # Application definition
