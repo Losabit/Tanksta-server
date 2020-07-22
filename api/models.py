@@ -21,9 +21,9 @@ class Player(models.Model):
     shoot = models.BooleanField(default = False, null=True)
     pos_x = models.FloatField(null=True)
     pos_y = models.FloatField(null=True)
-    want_to_play = models.BooleanField(default = False)
+    want_to_play = models.BooleanField(default = False, null=True)
     order = models.IntegerField(null=True)
-    end_of_turn = models.BooleanField(default = False)
+    end_of_turn = models.BooleanField(default = False, null=True)
 
     def __str__(self):
         return self.pseudo
